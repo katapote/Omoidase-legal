@@ -3,46 +3,49 @@ title: 保存の練習ページ
 ---
 # このページを保存してみましょう
 
-Omoidase への保存を、このページで練習できます。
+3回タップするだけです。いま見ているこのページで、そのまま練習できます。
 
-## 手順
+<div class="step"><span class="num">1</span> 画面の右下の <b>「…」</b> をタップ</div>
 
-**1. 画面の右下にある「…」をタップ**
+<img src="./assets/try/step1.png" alt="Safariの画面右下にある「…」ボタン" class="shot">
 
-点が3つ並んだボタンです。画面の下でゆれている矢印のすぐ下にあります。
+<div class="step"><span class="num">2</span> メニューの <b>「共有」</b> をタップ</div>
 
-**2. メニューの中の「共有」をタップ**
+<img src="./assets/try/step2.png" alt="メニューのいちばん上にある「共有」" class="shot narrow">
 
-**四角から上向きの矢印が出ているアイコン**です。
+<div class="step"><span class="num">3</span> アイコンの列から <b>「Omoidase」</b> をタップ</div>
 
-**3. 表示された一覧から「Omoidase」を選ぶ**
+<img src="./assets/try/step3.png" alt="共有メニューのアイコンの列にあるOmoidase" class="shot">
 
-見つからない場合は、一覧を横にスクロールするか、一番下の「その他」から探してください。
+アイコンの列にOmoidaseが見当たらないときは、**列を左へスクロール**して、いちばん右の **「その他」** を押してください。一覧の中にOmoidaseがあります。
 
-**4. 保存画面が開いたら「保存」をタップ**
-
-これで完了です。AIが自動でこのページを要約し、タグを付けます。
+<div class="done">✓「保存しました」と出たら完了です。何も押さなくても、自動で閉じます。</div>
 
 ## 保存できたら
 
-Omoidase に戻ると、ホームに **「〇〇で探す」** というボタンが出ます。押してみてください。
+画面左上の **「◀ Omoidase」** を押して、アプリに戻ってください。ホームに **「〇〇で探す」** というボタンが出ています。
 
-「これですか？」と、いま保存したこのページが出てくるはずです。
-
-これが Omoidase の使い方のすべてです。あとは、気になったページを見つけるたびに手順1〜4を繰り返すだけ。覚えておく必要はありません。
+押すと「これですか？」と、いま保存したこのページが出てきます。保存したものを、うろ覚えの言葉で探す。これが Omoidase の使い方のすべてです。
 
 ## 次から2タップにする（おすすめ）
 
-共有メニューの一覧を左へスクロールして **「その他」→ 右上の「編集」** を開き、Omoidase の **「＋」** を押してください。「よく使う項目」に入り、次からは一覧の先頭に出ます。
+手順3のアイコンの列を左へスクロールして **「その他」→ 右上の「編集」** を開き、Omoidase の **「＋」** を押してください。「よく使う項目」に入り、次からは列の先頭に出ます。
 
 ## うまくいかないときは
 
-共有メニューに Omoidase が出てこない場合は、一覧の一番右にある「その他」(または「アクションを編集」)をタップし、Omoidase をオンにしてください。一度オンにすれば、次回からは一覧に表示されます。
+「その他」の一覧にも Omoidase が無いときは、一覧の右上の「編集」から Omoidase をオンにしてください。一度オンにすれば、次からは表示されます。
 
 ---
 
 [サポート](./support) ・ [プライバシーポリシー](./privacy-policy) ・ [利用規約](./terms-of-service)
 
+<style>
+.step { display:flex; align-items:center; gap:10px; font-size:19px; font-weight:600; margin:28px 0 12px; }
+.step .num { flex:none; width:30px; height:30px; border-radius:50%; background:#0969da; color:#fff; display:inline-flex; align-items:center; justify-content:center; font-size:16px; }
+img.shot { display:block; width:100%; max-width:440px; border-radius:16px; box-shadow:0 2px 14px rgba(0,0,0,.12); margin:0 0 8px; }
+img.shot.narrow { max-width:340px; }
+.done { margin:28px 0 8px; padding:14px 16px; border-radius:12px; background:#e7f6ec; color:#1a7f37; font-weight:600; }
+</style>
 <style>
 @keyframes omoidase-point {
   0%, 100% { transform: translateY(0); }
