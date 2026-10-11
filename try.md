@@ -7,15 +7,15 @@ title: 保存の練習ページ
 
 <div class="step"><span class="num">1</span> 画面の右下の <b>「…」</b> をタップ</div>
 
-<img src="./assets/try/step1.png" alt="Safariの画面右下にある「…」ボタン" class="shot">
+<img src="./assets/try/step1.png?v=2" alt="Safariの画面右下にある「…」ボタン" class="shot">
 
 <div class="step"><span class="num">2</span> メニューの <b>「共有」</b> をタップ</div>
 
-<img src="./assets/try/step2.png" alt="メニューのいちばん上にある「共有」" class="shot narrow">
+<img src="./assets/try/step2.png?v=2" alt="メニューのいちばん上にある「共有」" class="shot narrow">
 
 <div class="step"><span class="num">3</span> アイコンの列から <b>「Omoidase」</b> をタップ</div>
 
-<img src="./assets/try/step3.png" alt="共有メニューのアイコンの列にあるOmoidase" class="shot">
+<img src="./assets/try/step3.png?v=2" alt="共有メニューのアイコンの列にあるOmoidase" class="shot">
 
 アイコンの列にOmoidaseが見当たらないときは、**列を左へスクロール**して、いちばん右の **「その他」** を押してください。一覧の中にOmoidaseがあります。
 
