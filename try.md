@@ -81,3 +81,15 @@ img.shot.narrow { max-width:340px; }
   <span class="label">この下の「…」をタップ</span>
   <div class="arrow">⬇️</div>
 </div>
+<script>
+  // Safari folds its toolbar away once the page scrolls, so past the first
+  // screen the pointer would aim at nothing and cover the text instead.
+  (function () {
+    var p = document.querySelector('.omoidase-share-pointer');
+    if (!p) return;
+    p.style.transition = 'opacity .25s';
+    window.addEventListener('scroll', function () {
+      p.style.opacity = window.scrollY > 300 ? '0' : '1';
+    }, { passive: true });
+  })();
+</script>
